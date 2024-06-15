@@ -3,5 +3,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Jost", sans-serif;
+    font-family: "Jost", sans-serif !important; 
+}
+header .navbar-brand {
+    color: #189a46;
+    font-weight: 600;
+    font-size: 34px;
+}
+header .navbar-brand:hover {
+    color: #189a46;
+}
+.navbar-nav .nav-link.active {
+    color: #189a46;
+}
+.nav-link {
+    color: black;
+    font-size: 1.2em;
 }
