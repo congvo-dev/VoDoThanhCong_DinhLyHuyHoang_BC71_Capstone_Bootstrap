@@ -39,6 +39,7 @@
   padding: 40px 30px;
   border-radius: 8px;
   background-color: white;
+  transition: 0.3s;
 }
 #features .content:hover {
   background-color: rgba(147, 107, 232, 0.05);
