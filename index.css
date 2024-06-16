@@ -18,6 +18,9 @@
   font-weight: 600;
   padding: 20px 0;
 }
+#features h4 a {
+  transition: 0.3s;
+}
 #features p {
   color: #696969;
   font-size: 1.2em;
@@ -29,12 +32,16 @@
   border-bottom: 2px solid #189a46;
   transition: 0.3s;
 }
-#features .col-lg-4 .read:hover {
+#features .col-lg-4 a:hover {
   color: #189a46;
 }
 #features .content {
   padding: 40px 30px;
   border-radius: 8px;
+  background-color: white;
+}
+#features .content:hover {
+  background-color: rgba(147, 107, 232, 0.05);
 }
 #features .col-lg-4 {
   margin-bottom: 30px;
