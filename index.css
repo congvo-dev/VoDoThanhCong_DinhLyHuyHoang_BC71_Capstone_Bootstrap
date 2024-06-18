@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: "Jost", sans-serif;
 }
+/* START number */
 #number {
   background-color: #189a46;
 }
@@ -24,3 +25,4 @@
   opacity: 0.8;
   font-weight: 400;
 }
+/* END number */
