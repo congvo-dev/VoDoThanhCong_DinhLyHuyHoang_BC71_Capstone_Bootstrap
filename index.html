@@ -22,12 +22,9 @@
   </head>
 
   <body>
+    <!-- START carousel -->
     <section id="carousel">
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="">
         <div class="carousel-indicators">
           <button
             type="button"
@@ -57,35 +54,93 @@
           ></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active" data-bs-interval="2000">
             <img
               src="./PoochCare-img/carousel-1.jpg"
               class="d-block w-100"
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block">
-              <h5>Quality Things for <br />Loving Pets</h5>
-              <p>Keeps your Pet Smilling</p>
-              <button class="btn btn-light mt-5 me-3">Read More</button>
-              <button class="btn btn-outline-light mt-5">Contact Us</button>
+              <div class="container">
+                <div class="content text-start">
+                  <h5>Quality Things for <br />Loving Pets</h5>
+                  <p>Keeps your Pet Smilling</p>
+                  <button class="btn btn-light mt-sm-5 mt-4 me-2">
+                    Read More
+                  </button>
+                  <button class="btn btn-outline-light mt-sm-5 mt-4">
+                    Contact Us
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="2000">
             <img
               src="./PoochCare-img/carousel-2.jpg"
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption caption-right d-none d-md-block">
-              <h5>Quality Things for <br />Loving Pets</h5>
-              <p>Keeps your Pet Smilling</p>
-              <button class="btn btn-light mt-5 me-3">Read More</button>
-              <button class="btn btn-outline-light mt-5">Contact Us</button>
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                <div class="content text-start ms-lg-auto">
+                  <h5>Quality Things for <br />Loving Pets</h5>
+                  <p>Keeps your Pet Smilling</p>
+                  <button class="btn btn-light mt-sm-5 mt-4 me-2">
+                    Read More
+                  </button>
+                  <button class="btn btn-outline-light mt-sm-5 mt-4">
+                    Contact Us
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="./PoochCare-img/carousel-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                <div class="content text-start">
+                  <h5>Quality Things for <br />Loving Pets</h5>
+                  <p>Keeps your Pet Smilling</p>
+                  <button class="btn btn-light mt-sm-5 mt-4 me-2">
+                    Read More
+                  </button>
+                  <button class="btn btn-outline-light mt-sm-5 mt-4">
+                    Contact Us
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="./PoochCare-img/carousel-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                <div class="content text-start ms-lg-auto">
+                  <h5>Quality Things for <br />Loving Pets</h5>
+                  <p>Keeps your Pet Smilling</p>
+                  <button class="btn btn-light mt-sm-5 mt-4 me-2">
+                    Read More
+                  </button>
+                  <button class="btn btn-outline-light mt-sm-5 mt-4">
+                    Contact Us
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          class="carousel-control-prev d-none"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
@@ -94,7 +149,7 @@
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          class="carousel-control-next d-none"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
@@ -104,6 +159,8 @@
         </button>
       </div>
     </section>
+    <!-- END carousel -->
+
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
