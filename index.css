@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: "Jost", sans-serif;
 }
+/* START plans */
 #plans {
   background-color: rgba(147, 107, 232, 0.05);
 }
@@ -83,7 +84,7 @@
   z-index: 1;
   box-shadow: 0 10px 30px 0 rgba(17, 17, 17, 0.09);
   transform: scale(1.03);
-  /* transform: translateY(-10%) */
+  margin: 0;
   padding: 0;
 }
 .plans__item.active h5 {
