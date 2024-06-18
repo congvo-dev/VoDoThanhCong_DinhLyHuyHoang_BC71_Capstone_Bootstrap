@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: "Jost", sans-serif;
 }
+/* START features */
+#features {
+  background-color: rgba(147, 107, 232, 0.05);
+}
 .feat_icon {
   color: #189a46;
   font-size: 30px;
@@ -47,3 +51,4 @@
 #features .col-lg-4 {
   margin-bottom: 30px;
 }
+/* END features */
