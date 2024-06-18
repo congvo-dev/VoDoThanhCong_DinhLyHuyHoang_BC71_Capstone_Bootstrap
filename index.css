@@ -5,10 +5,6 @@
     box-sizing: border-box;
     font-family: "Jost", sans-serif;
 }
-.why__left img {
-  max-width: 100%;
-  height: auto;
-}
 .why__right h6 {
   color: #f53626;
   font-size: 18px;
