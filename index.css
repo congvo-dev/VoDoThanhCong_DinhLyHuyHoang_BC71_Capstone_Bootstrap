@@ -171,3 +171,51 @@ header .modal-header button {
   color: #189a46;
 }
 /* END about */
+
+/* START features */
+#features {
+  background-color: rgba(147, 107, 232, 0.05);
+}
+.feat_icon {
+  color: #189a46;
+  font-size: 30px;
+}
+#features a {
+  text-decoration: none;
+  color: black;
+}
+#features h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+#features h4 a {
+  transition: 0.3s;
+}
+#features p {
+  color: #696969;
+  font-size: 1.2em;
+  line-height: 28px;
+}
+#features .col-lg-4 .read {
+  font-size: 17px;
+  font-weight: 600;
+  border-bottom: 2px solid #189a46;
+  transition: 0.3s;
+}
+#features .col-lg-4 a:hover {
+  color: #189a46;
+}
+#features .content {
+  padding: 40px 30px;
+  border-radius: 8px;
+  background-color: white;
+  transition: 0.3s;
+}
+#features .content:hover {
+  background-color: rgba(147, 107, 232, 0.05);
+}
+#features .col-lg-4 {
+  margin-bottom: 30px;
+}
+/* END features */
