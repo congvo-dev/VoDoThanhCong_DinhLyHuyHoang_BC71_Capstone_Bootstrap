@@ -142,3 +142,32 @@ header .modal-header button {
     margin-left: auto;
   }
 /* END carousel */
+
+/* START about */
+#about .container .content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+#about .container h6 {
+  color: #f53626;
+  font-size: 18px;
+}
+#about .container h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+#about .container p {
+  color: #696969;
+}
+#about .container a {
+  font-size: 17px;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid #189a46;
+  transition: 0.3s;
+}
+#about .container a:hover {
+  color: #189a46;
+}
+/* END about */
