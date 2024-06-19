@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: "Jost", sans-serif; 
 }
+/* START header */
 header .navbar-brand {
     color: #189a46;
     font-weight: 600;
@@ -60,18 +61,26 @@ header .navbar-brand:hover {
     border: none;
 }
 /* nho add them cha */
-form .btn {
+header form .btn {
     color: white;
     background-color: #189a46;
 }
-form:hover .btn {
+header form:hover .btn {
     color: white;
     background-color: #189a46;
     opacity: 0.8;
 }
-.modal-header button {
+header .modal-header button {
     color: grey;
 }
-.me-2 {
-    margin-right: 0px;
+#switchButton {
+  background-color: white;
+  border: 1px solid black;
 }
+#switchButton .fa-sun {
+  display: none;
+}
+#switchButton .fa-moon {
+  display: block;
+}
+/* END header */

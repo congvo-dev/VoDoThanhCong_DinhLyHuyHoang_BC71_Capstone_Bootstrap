@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
 
-  <body>
+  <body id="myBody">
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-3">
         <div class="container">
@@ -110,7 +110,7 @@
                     <div class="modal-body">
                       <form class="d-flex">
                         <input
-                          class="form-control me-2"
+                          class="form-control"
                           type="search"
                           placeholder="Search..."
                           aria-label="Search"
@@ -144,9 +144,15 @@
               </button>
             </form>
           </div>
+          <!-- toggle switch light/dark mode -->
+          <button class="btn" id="switchButton" title="Click to switch theme">
+            <i class="fa fa-moon"></i>
+            <i class="fa fa-sun"></i>
+          </button>
         </div>
       </nav>
     </header>
+    <!-- END header -->
 
     <!-- Bootstrap JavaScript Libraries -->
     <script
