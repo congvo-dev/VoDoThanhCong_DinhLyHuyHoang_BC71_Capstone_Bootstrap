@@ -257,3 +257,25 @@ header .modal-header button {
   border-radius: 50%;
 }
 /* END why */
+
+/* START number */
+#number {
+  background-color: #189a46;
+}
+#number .number__item {
+
+}
+#number p {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 600;
+  color: white;
+}
+#number h4 {
+  font-size: 20px;
+  line-height: 25px;
+  color: white;
+  opacity: 0.8;
+  font-weight: 400;
+}
+/* END number */
