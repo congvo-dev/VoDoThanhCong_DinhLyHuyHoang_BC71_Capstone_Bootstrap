@@ -82,6 +82,7 @@ header form:hover .btn {
 header .modal-header button {
     color: grey;
 }
+/* LIGHT SWITCH BUTTON */
 #switchButton {
   background-color: white;
   border: 1px solid black;
@@ -385,3 +386,71 @@ header .modal-header button {
   padding: 2em 3em;
 }
 /* END plans */
+
+/* DARK MODE */
+.dark #switchButton .fa-moon {
+  display: none;
+}
+.dark #switchButton .fa-sun {
+  display: block;
+}
+.dark header {
+  background-color: #151515;
+}
+.dark .nav-link {
+  color: #ddd;
+}
+.dark .nav-link:hover {
+  color: #189a46;
+}
+.dark #about {
+  background-color: #151515;
+}
+.dark #about h3 {
+  color: #ddd;
+}
+.dark #about p {
+  color: #afafaf;
+}
+.dark #about a {
+  color: #ddd;
+}
+.dark #features {
+  background-color: #222;
+}
+.dark #features .content {
+  background-color: #151515;
+}
+.dark #features .content:hover {
+  background-color: #222;
+}
+.dark #features a {
+  color: #ddd;
+}
+.dark #features p {
+  color: #afafaf;
+}
+.dark #why {
+  background-color: #151515;
+}
+.dark #why  h3 {
+  color: #ddd;
+}
+.dark #why  li {
+  color: #ddd;
+}
+.dark #plans {
+  background-color: #222;
+}
+.dark #plans h3 {
+  color: #ddd;
+}
+.dark #plans .item__top h6 {
+  color: #ddd;
+}
+.dark #plans .plans__item {
+  background-color: #151515;
+}
+.dark #plans .item__bot li {
+  color: #afafaf;
+}
