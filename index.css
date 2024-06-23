@@ -41,4 +41,15 @@
   padding: 8px;
   border-radius: 50%;
 }
+/* START DARK why */
+.dark #why {
+    background-color: #151515;
+  }
+  .dark #why  h3 {
+    color: #ddd;
+  }
+  .dark #why  li {
+    color: #ddd;
+  }
+  /* END DARK why */
 /* END why */
