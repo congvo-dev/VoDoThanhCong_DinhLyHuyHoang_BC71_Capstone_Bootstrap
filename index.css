@@ -93,3 +93,22 @@ header .modal-header button {
   display: block;
 }
 /* END header */
+
+/* DARK MODE */
+/* START DARK header */
+.dark #switchButton .fa-moon {
+    display: none;
+  }
+  .dark #switchButton .fa-sun {
+    display: block;
+  }
+  .dark header {
+    background-color: #151515;
+  }
+  .dark .nav-link {
+    color: #ddd;
+  }
+  .dark .nav-link:hover {
+    color: #189a46;
+  }
+  /* END DARK header */
