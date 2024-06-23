@@ -51,4 +51,21 @@
 #features .col-lg-4 {
   margin-bottom: 30px;
 }
+/* START DARK features */
+.dark #features {
+    background-color: #222;
+  }
+  .dark #features .content {
+    background-color: #151515;
+  }
+  .dark #features .content:hover {
+    background-color: #222;
+  }
+  .dark #features a {
+    color: #ddd;
+  }
+  .dark #features p {
+    color: #afafaf;
+  }
+  /* END DARK features */
 /* END features */
