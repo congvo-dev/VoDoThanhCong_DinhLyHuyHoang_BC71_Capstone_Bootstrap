@@ -32,4 +32,18 @@
 #about .container a:hover {
   color: #189a46;
 }
+/* START DARK about */
+.dark #about {
+    background-color: #151515;
+  }
+  .dark #about h3 {
+    color: #ddd;
+  }
+  .dark #about p {
+    color: #afafaf;
+  }
+  .dark #about a {
+    color: #ddd;
+  }
+  /* END DARK about */
 /* END about */
