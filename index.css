@@ -111,4 +111,21 @@
 .plans__item.active .item__bot {
   padding: 2em 3em;
 }
+/* START DARK plans */
+.dark #plans {
+    background-color: #222;
+  }
+  .dark #plans h3 {
+    color: #ddd;
+  }
+  .dark #plans .item__top h6 {
+    color: #ddd;
+  }
+  .dark #plans .plans__item {
+    background-color: #151515;
+  }
+  .dark #plans .item__bot li {
+    color: #afafaf;
+  }
+  /* END DARK plans */
 /* END plans */
