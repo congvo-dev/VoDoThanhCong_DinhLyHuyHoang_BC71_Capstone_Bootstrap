@@ -92,7 +92,6 @@ header .modal-header button {
 #switchButton .fa-moon {
   display: block;
 }
-/* END header */
 
 /* DARK MODE */
 /* START DARK header */
@@ -112,3 +111,5 @@ header .modal-header button {
     color: #189a46;
   }
   /* END DARK header */
+
+/* END header */
