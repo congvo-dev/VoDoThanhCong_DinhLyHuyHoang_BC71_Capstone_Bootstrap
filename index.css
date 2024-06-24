@@ -5,3 +5,107 @@
     box-sizing: border-box;
     font-family: "Jost", sans-serif;
 }
+/* START TESTIMONIALS */
+#testimonials {
+    background-color: rgba(147, 107, 232, 0.05);
+  }
+  .testimonials__title h6 {
+    color: #f53626;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+  }
+  .testimonials__title h3 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+  }
+  .testimonials__bot {
+    max-width: 1050px;
+    margin: auto;
+  }
+  .testimonial {
+    display: block;
+    margin: 0;
+    padding: 40px 30px;
+    position: relative;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 25px 98px 0 rgba(19, 19, 19, 0.03);
+    border-radius: 8px;
+  }
+  blockquote {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    margin-bottom: 1.5em;
+  }
+  blockquote q {
+    color: #696969;
+    font-size: 1.2em;
+    line-height: 28px;
+  }
+  .testi-des {
+    display: flex;
+    text-align: center;
+  }
+  .testi-des .test-img {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  .test-img img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .test-name {
+    margin: 0;
+    margin-left: 20px;
+    text-align: left;
+    align-self: center;
+  }
+  .test-name h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .test-name p{
+    color: #777;
+    font-size: 17px;
+    font-style: normal;
+    margin-bottom: 0;
+    text-align: left;
+    opacity: 0.8;
+  }
+  .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 80px;
+    bottom: 30px;
+  }
+  .owl-two.owl-carousel.owl-theme .owl-dots .owl-dot.active span {
+    background-color: #189a46;
+    width: 30px;
+    height: 10px;
+  }
+  /* START DARK testimonials */
+  .dark #testimonials {
+    background-color: #222;
+  }
+  .dark .testimonial {
+    background-color: #151515;
+  }
+  .dark .testimonials__title h3 {
+    color: #ddd;
+  }
+  .dark .test-name h3 {
+    color: #ddd;
+  }
+  /* END DARK testimonials */
+  /* END TESTIMONIALS */
