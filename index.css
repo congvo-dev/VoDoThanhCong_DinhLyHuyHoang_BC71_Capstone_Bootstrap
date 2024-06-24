@@ -5,3 +5,44 @@
     box-sizing: border-box;
     font-family: "Jost", sans-serif;
 }
+/* START stay */
+#stay .stay__content {
+    max-width: 650px;
+  }
+  #stay .stay__title h3 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+  }
+  #stay .stay__title p {
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #696969;
+  }
+  .stay__content form button {
+    background-color: #189a46;
+    font-size: 18px;
+    padding: 12px 35px;
+    line-height: 28px;
+    font-weight: 400;
+    border: none;
+  }
+  .owl-theme .owl-dots {
+    bottom: 30px;
+    margin-top: 60px;
+  }
+  .owl-theme .owl-nav {
+    display: none;
+  }
+  /* START DARK stay */
+  .dark #stay {
+    background-color: #151515;
+  }
+  .dark .stay__title h3 {
+    color: #ddd;
+  }
+  .dark .stay__title h3 {
+    color: #afafaf;
+  }
+  /* END DARK stay */
+  /* END stay */
